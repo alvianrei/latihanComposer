@@ -19,5 +19,7 @@
     <h1>Generate Random Name</h1>
     <button onclick="fetchName()">Generate New Name</button>
     <p id="name">Click the button to generate a new name.</p>
+    <br>
+    <a href="form.php">Generate PDF</a>
 </body>
 </html>

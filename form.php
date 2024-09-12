@@ -19,5 +19,7 @@
 
         <input type="submit" value="Buat PDF">
     </form>
+    <br>
+    <a href="form.php">Generate PDF</a>
 </body>
 </html>
