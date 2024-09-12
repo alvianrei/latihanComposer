@@ -20,6 +20,6 @@
     <button onclick="fetchName()">Generate New Name</button>
     <p id="name">Click the button to generate a new name.</p>
     <br>
-    <a href="index.php">Generate PDF</a>
+    <a href="index.php">Kembali</a>
 </body>
 </html>

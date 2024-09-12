@@ -20,6 +20,6 @@
         <input type="submit" value="Buat PDF">
     </form>
     <br>
-    <a href="index.php">Generate PDF</a>
+    <a href="index.php">Kembali</a>
 </body>
 </html>
