@@ -13,12 +13,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Buat instance TCPDF
     $pdf = new TCPDF();
 
-    // Atur informasi dokumen
-    $pdf->SetCreator(PDF_CREATOR);
-    $pdf->SetAuthor('Aplikasi Pembuatan PDF');
-    $pdf->SetTitle('Data Pengguna');
-    $pdf->SetSubject('PDF dari Formulir');
-
     // Tambahkan halaman
     $pdf->AddPage();
 
