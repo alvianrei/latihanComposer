@@ -8,5 +8,8 @@
             "email": "alvianreihan7@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "scripts": {
+        "server": "php -S localhost:8080"
+    }
 }
