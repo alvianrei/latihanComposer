@@ -6,4 +6,8 @@ use Carbon\Carbon;
 
 printf("Now: %s", Carbon::now());
 
+echo "\n";
+
 ?>
+
+<a href="form.php">Generate PDF</a>
