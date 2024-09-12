@@ -1,0 +1,12 @@
+{
+    "name": "alvian/latihan-composser",
+    "description": "latihan composer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "alvianrei",
+            "email": "alvianreihan7@gmail.com"
+        }
+    ],
+    "require": {}
+}
