@@ -10,7 +10,8 @@
     ],
     "require": {
         "nesbot/carbon": "^3.8",
-        "tecnickcom/tcpdf": "^6.7"
+        "tecnickcom/tcpdf": "^6.7",
+        "fakerphp/faker": "^1.23"
     },
     "scripts": {
         "server": "php -S localhost:8080"

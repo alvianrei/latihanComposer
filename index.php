@@ -6,8 +6,8 @@ use Carbon\Carbon;
 
 printf("Now: %s", Carbon::now());
 
-echo "\n";
-
 ?>
-
+<br>
 <a href="form.php">Generate PDF</a>
+<br>
+<a href="generate_nama.php">Generate Nama</a>

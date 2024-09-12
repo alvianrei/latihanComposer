@@ -36,7 +36,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Tulis konten ke PDF
     $pdf->writeHTML($html, true, false, true, false, '');
 
-    // Output PDF ke browser (dapat diunduh oleh pengguna)
-    $pdf->Output('data_pengguna.pdf', 'I');
+    // Set nama file yang akan diunduh
+    $nama_file = 'data_pengguna_' . time() . '.pdf';
+
+    // Output PDF dan unduh file
+    $pdf->Output($nama_file, 'D');
 }
 ?>
